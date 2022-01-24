@@ -2,11 +2,11 @@
 
 An NLP model to classify abstract sentences into the role they play (e.g. objective, methods, results, etc..) to enable researchers to skim through the literature and dive deeper when necessary.
 
-<img src="./assets/skimlitapp.PNG">
+<img src="images/skimlitapp.PNG">
 # SkimLit
 An NLP model to classify abstract sentences into the role they play (e.g. objective, methods, results, etc..) to enable researchers to skim through the literature and dive deeper when necessary.
 
-- **More specificially, I'am going to replicate the deep learning model behind the 2017 paper [_PubMed 200k RCT: a Dataset for Sequenctial Sentence Classification in Medical Abstracts_](https://arxiv.org/abs/1710.06071).**
+- **More specificially, Replicating the deep learning model behind the 2017 paper [_PubMed 200k RCT: a Dataset for Sequenctial Sentence Classification in Medical Abstracts_](https://arxiv.org/abs/1710.06071).**
 
 ## Dataset Used
 
@@ -30,15 +30,17 @@ Some miscellaneous information:
 <!--         <img src="https://user-images.githubusercontent.com/59719046/138639849-8bb0dcb4-f307-45cf-82ec-671530680863.png" width=40% height=40%> -->
 - Model described in [this](https://arxiv.org/pdf/1612.05251.pdf) paper with bert embedding -> 88% Accuracy
 
+<img src="images\Figure_1.PNG" width=100% height=100%>
+
 ## Final Results
 
 ### **F1_Results of all Models**
 
-<img src="./assets/F1_scores_on_10%.png">
+<img src="images/F1.png" width=100% height=100%>
 
-### **Best Performong del**
+### **Best Performong model Architecture**
 
-<img src="./assets/model_ARC.png" width=100% height=100%>
+<img src="images/model_ARC.png" width=100% height=100%>
 
 ## Packages Used
 
