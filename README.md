@@ -36,7 +36,7 @@ Some miscellaneous information:
 
 ### **F1_Results of all Models**
 
-<img src="images/F1.png" width=100% height=100%>
+<img src="images/F1.PNG" width=100% height=100%>
 
 ### **Best Performong model Architecture**
 
