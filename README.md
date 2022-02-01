@@ -30,13 +30,13 @@ Some miscellaneous information:
 <!--         <img src="https://user-images.githubusercontent.com/59719046/138639849-8bb0dcb4-f307-45cf-82ec-671530680863.png" width=40% height=40%> -->
 - Model described in [this](https://arxiv.org/pdf/1612.05251.pdf) paper with bert embedding -> 88% Accuracy
 
-<img src="images\Figure_1.PNG" width=100% height=100%>
+<img src="images\Figure_1.PNG" width=70% height=70%>
 
 ## Final Results
 
 ### **F1_Results of all Models**
 
-<img src="images/F1.PNG" width=100% height=100%>
+<img src="images/F1.PNG" width=70% height=70%>
 
 ### **Best Performong model Architecture**
 
@@ -61,9 +61,12 @@ pip install -r requirements.txt
 
 ## Trained_model
 
-Download model, unzip it and move it to `Skimit\data`:
-https://drive.google.com/drive/folders/17DLDS6eqA_6oYpQJ1DGB171AtKFuVrjG?usp=sharing
+Download model, unzip it and move it to `Skimit\data\model`:
 
+1. model trained on 20k >> f1= 0.846
+https://drive.google.com/drive/folders/17DLDS6eqA_6oYpQJ1DGB171AtKFuVrjG?usp=sharing
+2. model trained on 200k >> f1= 0.880
+https://drive.google.com/drive/folders/17DLDS6eqA_6oYpQJ1DGB171AtKFuVrjG?usp=sharing
 ## Usage
 
 Run

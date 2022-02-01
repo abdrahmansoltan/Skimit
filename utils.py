@@ -6,7 +6,7 @@ import spacy
 from spacy.lang.en import English
 
 # load_option = tf.saved_model.LoadOptions(experimental_io_device='/job:localhost')
-skimlit_model = tf.keras.models.load_model('./data/skim_lit/')
+skimlit_model = tf.keras.models.load_model('./data/model/')
 # skimlit_model = tf.keras.models.load_model('Models/Skimlit_BertModel', options=load_option)
 
 def spacy_function(abstract):
