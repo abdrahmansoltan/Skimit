@@ -27,6 +27,7 @@ Some miscellaneous information:
 - Model with token, character and position level embedding ( https://arxiv.org/pdf/1612.05251.pdf ) -> 81% Accuracy
 <!--         <img src="https://user-images.githubusercontent.com/59719046/138639849-8bb0dcb4-f307-45cf-82ec-671530680863.png" width=40% height=40%> -->
 - Model described in [this](https://arxiv.org/pdf/1612.05251.pdf) paper with bert embedding -> 88% Accuracy
+- Model trained on 200k dataset reached **87.86% Accuracy**
 
 <img src="images\Figure_1.PNG" width=70% height=70%>
 
@@ -62,9 +63,10 @@ pip install -r requirements.txt
 Download model, unzip it and move it to `Skimit\data\model`:
 
 1. model trained on 20k >> f1= 0.846
-https://drive.google.com/drive/folders/17DLDS6eqA_6oYpQJ1DGB171AtKFuVrjG?usp=sharing
+   https://drive.google.com/drive/folders/17DLDS6eqA_6oYpQJ1DGB171AtKFuVrjG?usp=sharing
 2. model trained on 200k >> f1= 0.880
-https://drive.google.com/drive/folders/17DLDS6eqA_6oYpQJ1DGB171AtKFuVrjG?usp=sharing
+   https://drive.google.com/drive/folders/17DLDS6eqA_6oYpQJ1DGB171AtKFuVrjG?usp=sharing
+
 ## Usage
 
 Run
