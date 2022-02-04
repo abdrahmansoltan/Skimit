@@ -3,8 +3,6 @@
 An NLP model to classify abstract sentences into the role they play (e.g. objective, methods, results, etc..) to enable researchers to skim through the literature and dive deeper when necessary.
 
 <img src="images/skimlitapp.PNG">
-# SkimLit
-An NLP model to classify abstract sentences into the role they play (e.g. objective, methods, results, etc..) to enable researchers to skim through the literature and dive deeper when necessary.
 
 - **More specificially, Replicating the deep learning model behind the 2017 paper [_PubMed 200k RCT: a Dataset for Sequenctial Sentence Classification in Medical Abstracts_](https://arxiv.org/abs/1710.06071).**
 
